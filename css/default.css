@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  color: white;
+}
+
+p, a, h1, h2, h3, button, input {
+  font-family: 'Lato', sans-serif;
+}
+
+#camera {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.title {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+.prompt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
